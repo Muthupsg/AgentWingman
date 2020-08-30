@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agentwingman">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Sending_Sms"></activity>
+        <activity android:name=".Sms_View_Module" />
+        <activity android:name=".Holder_Search" />
+        <activity android:name=".Holdersearchmodule" />
+        <activity android:name=".HolderUpload" />
+        <activity android:name=".HolderModule" />
+        <activity android:name=".ScheduleModule" />
+        <activity android:name=".Main" />
+        <activity android:name=".SearchModule" />
+        <activity android:name=".UpdateModule" />
+        <activity android:name=".ClientModule" />
+        <activity android:name=".mainmodule" />
+        <activity android:name=".Validate" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
